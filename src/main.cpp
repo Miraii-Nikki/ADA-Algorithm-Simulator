@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+void sortingMenu();
 void showMenu() {
     cout << "\n====== ADA Algorithm Simulator ======\n";
     cout << "1. Sorting Algorithms\n";
@@ -21,6 +22,7 @@ int main() {
         switch (choice) {
             case 1:
                 cout << "Sorting Algorithms selected\n";
+                sortingMenu();
                 break;
             case 2:
                 cout << "Greedy Algorithms selected\n";
@@ -32,13 +34,14 @@ int main() {
                 cout << "Graph Algorithms selected\n";
                 break;
             case 0:
-                cout << "Exiting... \n";
+                cout << "Exiting...\n";
                 break;
             default:
-                cout << "Invalid choice, try again\n";
+                cout << "Invalid choice, try again \n";
         }
 
     } while (choice != 0);
 
     return 0;
 }
+
