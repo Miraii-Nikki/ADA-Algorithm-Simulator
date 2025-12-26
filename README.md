@@ -19,6 +19,11 @@ internal working.
   - Recursive breakdown
   - Step-by-step merging process
 
+- **Quick Sort**
+  - Pivot-based partitioning (first element as pivot)
+  - Recursive division
+  - Step-by-step visualization
+
 ---
 
 ##  How to Run
