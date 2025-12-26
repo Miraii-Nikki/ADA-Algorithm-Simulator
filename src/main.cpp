@@ -6,6 +6,7 @@ void quickSortMenu();
 void huffmanMenu();
 void knapsackMenu();
 void dijkstraMenu();
+void bellmanFordMenu();
 void showMenu() {
     cout << "\n====== ADA Algorithm Simulator ======\n";
     cout << "1. Merge Sort Algorithm (Divide and Conquer)\n";
@@ -13,6 +14,7 @@ void showMenu() {
     cout << "3. Huffman Coding Algorithm (Greedy approach)\n";
     cout << "4. 0/1 Knapsack Algorithm (Dynamic programming)\n";
     cout << "5. Dijkstra Algorithm (Graphs)\n";
+    cout << "6. Bellman Ford Algorithm (Graphs with negative weights)\n";
     cout << "0. Exit\n";
     cout << "Enter your choice: ";
 }
@@ -44,6 +46,10 @@ int main() {
             case 5:
                 cout << "Dijkstra Algorithm selected\n";
                 dijkstraMenu();
+                break;
+            case 6:
+                cout << "Bellman Ford Algorithm selected\n";
+                bellmanFordMenu();
                 break;
             case 0:
                 cout << "Exiting...\n";

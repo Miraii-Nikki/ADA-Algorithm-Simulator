@@ -40,6 +40,12 @@ internal working.
   - Displays `INF` for unreachable vertices
   - Prints final shortest paths from the source vertex
 
+- **Bellman–Ford Algorithm (Graph)**
+  - User-input edge list representation
+  - Step-by-step edge relaxation (V−1 iterations)
+  - Handles negative edge weights
+  - Detects negative weight cycles
+
 ---
 
 ##  How to Run
