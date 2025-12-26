@@ -24,6 +24,11 @@ internal working.
   - Recursive division
   - Step-by-step visualization
 
+  - **Huffman Coding (Greedy)**
+  - Min-heap based construction
+  - Greedy selection of lowest frequencies
+  - Prefix-free binary codes
+
 ---
 
 ##  How to Run
