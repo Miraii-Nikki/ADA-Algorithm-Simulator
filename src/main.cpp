@@ -3,11 +3,12 @@ using namespace std;
 
 void sortingMenu();
 void quickSortMenu();
+void huffmanMenu();
 void showMenu() {
     cout << "\n====== ADA Algorithm Simulator ======\n";
-    cout << "1. Merge Sort Algorithm\n";
-    cout << "2. Quick Sort Algorithm\n";
-    cout << "3. Dynamic Programming\n";
+    cout << "1. Merge Sort Algorithm (Divide and Conquer)\n";
+    cout << "2. Quick Sort Algorithm (Divide and Conquer)\n";
+    cout << "3. Huffman Coding Algorithm (Greedy approach)\n";
     cout << "4. Graph Algorithms\n";
     cout << "0. Exit\n";
     cout << "Enter your choice: ";
@@ -30,7 +31,8 @@ int main() {
                 quickSortMenu();
                 break;
             case 3:
-                cout << "Dynamic Programming selected\n";
+                cout << "Huffman Coding selected\n";
+                huffmanMenu();
                 break;
             case 4:
                 cout << "Graph Algorithms selected\n";
