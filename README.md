@@ -34,10 +34,16 @@ internal working.
   - Choice-based state transition
   - Visual representation of optimal values
 
+- **Dijkstra’s Algorithm (Graph – Greedy)**
+  - User-input based graph (adjacency matrix)
+  - Step-by-step vertex selection and edge relaxation
+  - Displays `INF` for unreachable vertices
+  - Prints final shortest paths from the source vertex
+
 ---
 
 ##  How to Run
-
+- For graph algorithms, the user provides the number of vertices, adjacency matrix, and source vertex at runtime.
 ### Requirements
 - Windows
 - MSYS2 (UCRT64)
