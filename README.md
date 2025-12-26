@@ -29,6 +29,11 @@ internal working.
   - Greedy selection of lowest frequencies
   - Prefix-free binary codes
 
+- **0/1 Knapsack (Dynamic Programming)**
+  - DP table construction
+  - Choice-based state transition
+  - Visual representation of optimal values
+
 ---
 
 ##  How to Run
