@@ -2,10 +2,11 @@
 using namespace std;
 
 void sortingMenu();
+void quickSortMenu();
 void showMenu() {
     cout << "\n====== ADA Algorithm Simulator ======\n";
-    cout << "1. Sorting Algorithms\n";
-    cout << "2. Greedy Algorithms\n";
+    cout << "1. Merge Sort Algorithm\n";
+    cout << "2. Quick Sort Algorithm\n";
     cout << "3. Dynamic Programming\n";
     cout << "4. Graph Algorithms\n";
     cout << "0. Exit\n";
@@ -21,11 +22,12 @@ int main() {
 
         switch (choice) {
             case 1:
-                cout << "Sorting Algorithms selected\n";
+                cout << "Merge Sort Algorithm selected\n";
                 sortingMenu();
                 break;
             case 2:
-                cout << "Greedy Algorithms selected\n";
+                cout << "Quick Sort Algorithm selected\n";
+                quickSortMenu();
                 break;
             case 3:
                 cout << "Dynamic Programming selected\n";
